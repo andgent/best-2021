@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>HelloSpringMVC</title>
+	</head>
+	<body>
+		<h1 th:text="'Best of 2021 by ' + ${name}"></h1 >
+		<a th:href="@{/movies}">Movies</a>
+		<br>
+		<a th:href="@{/songs}">Songs</a>
+	</body>
+</html>
